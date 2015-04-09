@@ -18,6 +18,7 @@ DATABASES = {
 
 
 
-
+##fig install
+http://yeasy.gitbooks.io/docker_practice/content/fig/install.html
 #fig build
 #fig up
