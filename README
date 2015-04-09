@@ -1,0 +1,23 @@
+http://yeasy.gitbooks.io/docker_practice/content/fig/django.html
+https://registry.hub.docker.com/_/mysql/
+https://docs.djangoproject.com/en/1.8/ref/contrib/admin/
+https://github.com/yuanbluemood
+
+
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'cmsm',
+        'USER': 'user',
+        'PASSWORD': 'userpasswd',
+        'HOST': 'db',
+        'PORT': '3306',
+    }
+}
+
+
+
+
+#fig build
+#fig up
