@@ -22,6 +22,7 @@ django及相关包写入requirements.txt，采用pip安装
 ###生成django项目并修改setting文件
 fig run web startproject YOURPROJECT-NAME . 
 修改setting.py中的DB设置
+
         DATABASES = {
             'default': {
                 'ENGINE': 'django.db.backends.mysql',
