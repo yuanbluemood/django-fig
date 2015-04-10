@@ -28,7 +28,7 @@ https://github.com/yuanbluemood
 
 
 使用fig run web startproject YOURPROJECT-NAME . 在当前目录生成django项目
-修改setting.py中的DB设置
+###修改setting.py中的DB设置
         DATABASES = {
             'default': {
                 'ENGINE': 'django.db.backends.mysql',
@@ -49,7 +49,7 @@ http://yeasy.gitbooks.io/docker_practice/content/fig/install.html
 
 
 
-在这备份下vimrc 设置tab为4个空格的配置
+###在这备份下vimrc 设置tab为4个空格的配置
         set ts=4
         set expandtab
         set autoindent
