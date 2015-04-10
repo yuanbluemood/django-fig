@@ -1,5 +1,5 @@
 使用fig+docker搭建基于django+mysql的web开发环境
-==================================
+----------------------------
 
 django单独用基于centos7，安装python相关环境，注意mysql-devel的安装，否则连db会报错，
 django及相关包写入requirements.txt，采用pip安装
