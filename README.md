@@ -19,16 +19,9 @@ django及相关包写入requirements.txt，采用pip安装
 
 
 
-
-###参考资料：
-http://yeasy.gitbooks.io/docker_practice/content/fig/django.html
-https://registry.hub.docker.com/_/mysql/
-https://docs.djangoproject.com/en/1.8/ref/contrib/admin/
-https://github.com/yuanbluemood
-
-
-使用fig run web startproject YOURPROJECT-NAME . 在当前目录生成django项目
-###修改setting.py中的DB设置
+###生成django项目并修改setting文件
+fig run web startproject YOURPROJECT-NAME . 
+修改setting.py中的DB设置
         DATABASES = {
             'default': {
                 'ENGINE': 'django.db.backends.mysql',
@@ -48,6 +41,11 @@ http://yeasy.gitbooks.io/docker_practice/content/fig/install.html
         fig up
 
 
+###参考资料：
+http://yeasy.gitbooks.io/docker_practice/content/fig/django.html
+https://registry.hub.docker.com/_/mysql/
+https://docs.djangoproject.com/en/1.8/ref/contrib/admin/
+https://github.com/yuanbluemood
 
 ###在这备份下vimrc 设置tab为4个空格的配置
         set ts=4
